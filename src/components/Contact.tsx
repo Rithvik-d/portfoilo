@@ -151,8 +151,8 @@ const Contact = () => {
             </h2>
             <div className="w-24 h-1 bg-primary-600 mx-auto rounded-full mb-4"></div>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              I'm always interested in new opportunities and exciting projects. 
-              Let's discuss how we can work together!
+              I&apos;m always interested in new opportunities and exciting projects. 
+              Let&apos;s discuss how we can work together!
             </p>
           </motion.div>
 
@@ -161,11 +161,11 @@ const Contact = () => {
             <motion.div variants={itemVariants} className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
                   Whether you have a project in mind, want to discuss data science opportunities, 
-                  or just want to say hello, I'd love to hear from you. I'm particularly interested 
+                  or just want to say hello, I&apos;d love to hear from you. I&apos;m particularly interested 
                   in roles that combine my passion for data science with full-stack development.
                 </p>
               </div>

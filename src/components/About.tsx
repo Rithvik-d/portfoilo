@@ -83,20 +83,20 @@ const About = () => {
             <motion.div variants={itemVariants} className="space-y-6">
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  I'm a passionate <strong className="text-primary-600">Data Scientist</strong> and <strong className="text-primary-600">Full Stack Developer </strong> 
-                   currently pursuing my Master's degree at Montclair State University with a perfect 4.0 GPA. 
+                  I&apos;m a passionate <strong className="text-primary-600">Data Scientist</strong> and <strong className="text-primary-600">Full Stack Developer </strong> 
+                   currently pursuing my Master&apos;s degree at Montclair State University with a perfect 4.0 GPA. 
                   My journey combines technical expertise with a strong focus on creating user-centered solutions.
                 </p>
                 
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   With experience in both <strong>academic tutoring</strong> and <strong>professional software development </strong>, 
-                  I bring a unique perspective to problem-solving. I've successfully tutored over 200+ students 
+                  I bring a unique perspective to problem-solving. I&apos;ve successfully tutored over 200+ students 
                   while maintaining excellent academic performance and delivering end-to-end projects.
                 </p>
                 
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   My expertise spans across <strong>Python, Java, React, Spring Boot</strong>, and various data science tools. 
-                  I'm particularly passionate about building applications that make complex data accessible 
+                  I&apos;m particularly passionate about building applications that make complex data accessible 
                   to non-technical users through intuitive interfaces.
                 </p>
               </div>
