@@ -216,22 +216,22 @@ const Projects = () => {
         >
           {/* Section Header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
               Featured Projects
             </h2>
             <div className="w-24 h-1 bg-primary-600 mx-auto rounded-full mb-4"></div>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto px-4">
               A showcase of my work spanning data science, web development, and full-stack applications
             </p>
           </motion.div>
 
           {/* Projects Grid */}
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8">
             {projects.map((project, index) => (
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className="card overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                className="card overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 w-full"
               >
                 {/* Project Image */}
                 <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-dark-700 dark:to-dark-600 flex items-center justify-center">
@@ -246,8 +246,8 @@ const Projects = () => {
                 </div>
 
                 {/* Project Content */}
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                <div className="p-4 md:p-6">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-3">
                     {project.title}
                   </h3>
                   
