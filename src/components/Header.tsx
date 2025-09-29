@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Download } from 'lucide-react'
 import ThemeToggle from './ThemeToggle'
 
 const Header = () => {
@@ -50,6 +50,15 @@ const Header = () => {
 
           {/* Theme Toggle & Mobile Menu Button */}
           <div className="flex items-center space-x-4">
+            {/* Resume Download Button */}
+            <a
+              href="/Rithvik_Dhanpal_Resume.pdf"
+              download="Rithvik_Dhanpal_Resume.pdf"
+              className="hidden md:flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-200 font-medium"
+            >
+              <Download className="h-4 w-4" />
+              Resume
+            </a>
             <ThemeToggle />
 
             {/* Mobile menu button */}
@@ -88,6 +97,16 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
+            {/* Mobile Resume Button */}
+            <a
+              href="/Rithvik_Dhanpal_Resume.pdf"
+              download="Rithvik_Dhanpal_Resume.pdf"
+              onClick={() => setIsOpen(false)}
+              className="flex items-center gap-2 px-4 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-all duration-200 font-medium hover:translate-x-2"
+            >
+              <Download className="h-4 w-4" />
+              Download Resume
+            </a>
           </div>
         </motion.nav>
       </div>
