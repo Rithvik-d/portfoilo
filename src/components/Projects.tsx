@@ -168,6 +168,108 @@ const Projects = () => {
       category: 'Financial Software',
       github: 'https://github.com/Rithvik-d/TAX-TRACKING-FINAL---PROJECT-',
       demo: '#'
+    },
+    {
+      title: 'AI Stylist – Personalized Outfit Recommendations',
+      description: 'Built a GenAI pipeline to recommend clothing outfits in real time using AWS Bedrock, SageMaker, and Stable Diffusion. Optimized inference latency by 25% through advanced model tuning and performance optimization.',
+      image: '/api/placeholder/600/400',
+      icon: Sparkles,
+      color: 'from-pink-500 to-rose-500',
+      technologies: ['AWS Bedrock', 'SageMaker', 'Stable Diffusion', 'GenAI', 'Python', 'Real-time Inference'],
+      features: [
+        'Real-time personalized outfit recommendations',
+        'GenAI pipeline with AWS Bedrock integration',
+        '25% inference latency optimization',
+        'Stable Diffusion for visual generation'
+      ],
+      category: 'Generative AI',
+      github: '#',
+      demo: '#'
+    },
+    {
+      title: 'Amazon Titan Image Generator – Visual Ads for Octank Dog Food',
+      description: 'Generated high-quality marketing creatives using Amazon Titan Image Generator and evaluated model cost/performance trade-offs for production deployment. Focused on optimizing visual content generation for marketing campaigns.',
+      image: '/api/placeholder/600/400',
+      icon: Image,
+      color: 'from-orange-500 to-red-500',
+      technologies: ['Amazon Titan', 'Image Generation', 'Marketing AI', 'Cost Optimization', 'Production Deployment'],
+      features: [
+        'High-quality marketing creative generation',
+        'Cost/performance trade-off analysis',
+        'Production deployment optimization',
+        'Marketing campaign automation'
+      ],
+      category: 'Marketing AI',
+      github: '#',
+      demo: '#'
+    },
+    {
+      title: 'AWS Bedrock Model Evaluation – AI Workflow Optimization',
+      description: 'Benchmarked Bedrock LLMs (Claude, Titan, Llama) to design a cost-efficient AI inference strategy, reducing compute costs by 20%. Comprehensive evaluation of multiple language models for optimal performance and cost balance.',
+      image: '/api/placeholder/600/400',
+      icon: Zap,
+      color: 'from-blue-500 to-cyan-500',
+      technologies: ['AWS Bedrock', 'Claude', 'Titan', 'Llama', 'Model Benchmarking', 'Cost Optimization'],
+      features: [
+        'Multi-LLM benchmarking and evaluation',
+        '20% compute cost reduction achieved',
+        'Cost-efficient AI inference strategy',
+        'Production-ready optimization framework'
+      ],
+      category: 'AI Optimization',
+      github: '#',
+      demo: '#'
+    },
+    {
+      title: 'Food Inspection Analysis Using Association Rule Mining',
+      description: 'Applied the Apriori algorithm to uncover associations between inspection results, facility types, and risk levels using data from the City of Chicago Data Portal. Generated association rules to identify frequent patterns and insights for improving food safety.',
+      image: '/api/placeholder/600/400',
+      icon: Database,
+      color: 'from-blue-500 to-cyan-500',
+      technologies: ['Python', 'Apriori Algorithm', 'Data Mining', 'Pandas', 'NumPy', 'Matplotlib'],
+      features: [
+        'Association rule mining using Apriori algorithm',
+        'Analysis of Chicago food inspection data',
+        'Pattern recognition for food safety insights',
+        'Data visualization and reporting'
+      ],
+      category: 'Data Science',
+      github: '#',
+      demo: '#'
+    },
+    {
+      title: 'Access Control System for Internal Applications',
+      description: 'Developed a secure identity management system for 10+ internal tools using RBAC and password encryption. Enabled seamless user onboarding and access provisioning with minimal manual intervention.',
+      image: '/api/placeholder/600/400',
+      icon: Lock,
+      color: 'from-purple-500 to-violet-500',
+      technologies: ['Java', 'Spring Boot', 'MySQL', 'React', 'Docker', 'RBAC', 'OAuth2.0'],
+      features: [
+        'Role-based access control (RBAC)',
+        'Password encryption and security',
+        'Multi-application integration',
+        'Automated user provisioning'
+      ],
+      category: 'Security',
+      github: '#',
+      demo: '#'
+    },
+    {
+      title: 'E-commerce Website Development',
+      description: 'Built a full-stack clothing e-commerce site using Java/Spring Boot and React, with front-to-back integration. Integrated features such as product listing, shopping cart, and order processing.',
+      image: '/api/placeholder/600/400',
+      icon: ShoppingCart,
+      color: 'from-orange-500 to-amber-500',
+      technologies: ['Java', 'Spring Boot', 'React', 'MySQL', 'REST APIs', 'JavaScript'],
+      features: [
+        'Full-stack e-commerce platform',
+        'Product catalog and search',
+        'Shopping cart functionality',
+        'Order processing system'
+      ],
+      category: 'E-commerce',
+      github: '#',
+      demo: '#'
     }
   ]
 
