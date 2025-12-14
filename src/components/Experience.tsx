@@ -64,7 +64,7 @@ const Experience = () => {
       title: 'Full Stack Application Developer',
       company: 'Optical Health Solution Pvt Ltd (Medplus)',
       location: 'Hyderabad, India',
-      period: 'Jun 2022 - Dec 2023',
+      period: 'Jul 2021 - Dec 2023',
       type: 'Development',
       icon: Code,
       color: 'from-green-500 to-emerald-500',
