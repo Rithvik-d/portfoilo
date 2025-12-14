@@ -51,155 +51,122 @@ const Projects = () => {
   const projects = [
     {
       title: 'Enhanced Parallel & Distributed Computing via Graph-RAG',
-      description: 'Implemented a distributed Graph-RAG architecture on CDER learning materials to achieve sub-second semantic retrieval. Research collaboration with Prof. Zhu and Prof. Wang focusing on scalable knowledge retrieval systems.',
+      description: 'Implemented a distributed Graph-RAG architecture on CDER learning materials to achieve sub-second semantic retrieval. Research collaboration focusing on scalable knowledge retrieval systems for parallel and distributed computing education.',
       image: '/api/placeholder/600/400',
       icon: Brain,
       color: 'from-indigo-500 to-purple-500',
       technologies: ['Python', 'Graph-RAG', 'Distributed Computing', 'CDER', 'Semantic Search', 'Vector Databases'],
       features: [
-        'Distributed Graph-RAG architecture implementation',
-        'Sub-second semantic retrieval performance',
-        'Research collaboration with academic faculty',
+        'Distributed Graph-RAG architecture',
+        'Sub-second semantic retrieval',
+        'Research collaboration project',
         'Scalable knowledge retrieval system'
       ],
       category: 'AI Research',
-      github: '#',
+      github: 'https://github.com/Rithvik-d/Enhanced-Parallel-and-Distributed-Computing-Learning-through-Graph-RAG',
       demo: '#'
     },
     {
-      title: 'AI Stylist – Personalized Outfit Recommendations',
-      description: 'Built a GenAI pipeline to recommend clothing outfits in real time using AWS Bedrock, SageMaker, and Stable Diffusion. Optimized inference latency by 25% through advanced model tuning and performance optimization.',
-      image: '/api/placeholder/600/400',
-      icon: Sparkles,
-      color: 'from-pink-500 to-rose-500',
-      technologies: ['AWS Bedrock', 'SageMaker', 'Stable Diffusion', 'GenAI', 'Python', 'Real-time Inference'],
-      features: [
-        'Real-time personalized outfit recommendations',
-        'GenAI pipeline with AWS Bedrock integration',
-        '25% inference latency optimization',
-        'Stable Diffusion for visual generation'
-      ],
-      category: 'Generative AI',
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Amazon Titan Image Generator – Visual Ads for Octank Dog Food',
-      description: 'Generated high-quality marketing creatives using Amazon Titan Image Generator and evaluated model cost/performance trade-offs for production deployment. Focused on optimizing visual content generation for marketing campaigns.',
-      image: '/api/placeholder/600/400',
-      icon: Image,
-      color: 'from-orange-500 to-red-500',
-      technologies: ['Amazon Titan', 'Image Generation', 'Marketing AI', 'Cost Optimization', 'Production Deployment'],
-      features: [
-        'High-quality marketing creative generation',
-        'Cost/performance trade-off analysis',
-        'Production deployment optimization',
-        'Marketing campaign automation'
-      ],
-      category: 'Marketing AI',
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'AWS Bedrock Model Evaluation – AI Workflow Optimization',
-      description: 'Benchmarked Bedrock LLMs (Claude, Titan, Llama) to design a cost-efficient AI inference strategy, reducing compute costs by 20%. Comprehensive evaluation of multiple language models for optimal performance and cost balance.',
+      title: 'HPC Tutor Agent',
+      description: 'An intelligent tutoring agent for High Performance Computing (HPC) concepts. Uses AI/ML techniques to provide personalized learning experiences and help students understand complex HPC topics.',
       image: '/api/placeholder/600/400',
       icon: Zap,
-      color: 'from-blue-500 to-cyan-500',
-      technologies: ['AWS Bedrock', 'Claude', 'Titan', 'Llama', 'Model Benchmarking', 'Cost Optimization'],
+      color: 'from-yellow-500 to-orange-500',
+      technologies: ['Python', 'AI/ML', 'NLP', 'Educational Technology', 'HPC'],
       features: [
-        'Multi-LLM benchmarking and evaluation',
-        '20% compute cost reduction achieved',
-        'Cost-efficient AI inference strategy',
-        'Production-ready optimization framework'
+        'Intelligent tutoring system for HPC',
+        'Personalized learning experiences',
+        'AI-powered concept explanation',
+        'Interactive learning interface'
       ],
-      category: 'AI Optimization',
-      github: '#',
+      category: 'Educational AI',
+      github: 'https://github.com/Rithvik-d/HPCTutorAgent',
       demo: '#'
     },
     {
-      title: 'Food Inspection Analysis Using Association Rule Mining',
-      description: 'Applied the Apriori algorithm to uncover associations between inspection results, facility types, and risk levels using data from the City of Chicago Data Portal. Generated association rules to identify frequent patterns and insights for improving food safety.',
-      image: '/api/placeholder/600/400',
-      icon: Database,
-      color: 'from-blue-500 to-cyan-500',
-      technologies: ['Python', 'Apriori Algorithm', 'Data Mining', 'Pandas', 'NumPy', 'Matplotlib'],
-      features: [
-        'Association rule mining using Apriori algorithm',
-        'Analysis of Chicago food inspection data',
-        'Pattern recognition for food safety insights',
-        'Data visualization and reporting'
-      ],
-      category: 'Data Science',
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'PCOS Detection & Analysis Web Application',
-      description: 'Designed a web interface that made medical predictions accessible to non-technical users. Focused on interface clarity, user empathy, and iterative testing to create an intuitive healthcare application.',
+      title: 'PCOS Prediction System - MLOps Project',
+      description: 'A comprehensive MLOps project for PCOS detection using machine learning. Features Docker containerization, RESTful API, web interface, and multiple ML models (Random Forest, SVM, Logistic Regression) with ~92% accuracy. Includes model versioning, health monitoring, and production-ready deployment.',
       image: '/api/placeholder/600/400',
       icon: Heart,
       color: 'from-pink-500 to-rose-500',
-      technologies: ['Python', 'Flask', 'Machine Learning', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['Python', 'Flask', 'Machine Learning', 'Docker', 'MLOps', 'Scikit-learn', 'REST API'],
       features: [
-        'Medical prediction interface for non-technical users',
-        'User-centered design with empathy focus',
-        'Iterative testing and usability improvements',
-        'Accessible healthcare technology'
+        'Multiple ML models with ~92% accuracy',
+        'Docker containerization for deployment',
+        'RESTful API for programmatic access',
+        'User-friendly web interface for non-technical users',
+        'Model versioning and health monitoring'
       ],
       category: 'Healthcare Tech',
-      github: '#',
+      github: 'https://github.com/Rithvik-d/PCOS-Prediction-System---MLOps-Project',
       demo: '#'
     },
     {
-      title: 'Global Earthquake Monitoring Dashboard',
-      description: 'Designed and deployed a real-time dashboard with interactive geospatial filters using Plotly Dash, Folium, and GeoPandas. Focused on usability and responsiveness, enabling users to quickly filter and interpret earthquake data.',
+      title: 'BERT-NER Medical Entity Recognition',
+      description: 'Medical entity recognition system using BERT (Bidirectional Encoder Representations from Transformers) for extracting and classifying medical entities from text. Implements state-of-the-art NLP techniques for healthcare document analysis.',
+      image: '/api/placeholder/600/400',
+      icon: Brain,
+      color: 'from-indigo-500 to-purple-500',
+      technologies: ['Python', 'BERT', 'NLP', 'Transformers', 'PyTorch/TensorFlow', 'Medical NLP'],
+      features: [
+        'BERT-based named entity recognition',
+        'Medical entity extraction and classification',
+        'State-of-the-art NLP for healthcare',
+        'Document analysis and processing'
+      ],
+      category: 'NLP / Healthcare AI',
+      github: 'https://github.com/Rithvik-d/BERT-NER-Medical-Entity-Recognition-',
+      demo: '#'
+    },
+    {
+      title: 'Municipal Vehicle Fleet Analysis',
+      description: 'Data analysis project for municipal vehicle fleet management. Analyzes vehicle usage patterns, maintenance schedules, fuel efficiency, and operational costs to optimize fleet operations and reduce expenses.',
+      image: '/api/placeholder/600/400',
+      icon: BarChart3,
+      color: 'from-blue-500 to-cyan-500',
+      technologies: ['Python', 'Data Analysis', 'Pandas', 'Visualization', 'Statistical Analysis'],
+      features: [
+        'Vehicle usage pattern analysis',
+        'Maintenance schedule optimization',
+        'Fuel efficiency tracking',
+        'Cost analysis and reporting'
+      ],
+      category: 'Data Analysis',
+      github: 'https://github.com/Rithvik-d/municipal-vehicle-fleet-analysis',
+      demo: '#'
+    },
+    {
+      title: 'Global Earthquake Analysis Dashboard',
+      description: 'Real-time global earthquake monitoring dashboard with interactive geospatial visualization. Built with Plotly Dash, Folium, and GeoPandas for comprehensive earthquake data analysis and visualization.',
       image: '/api/placeholder/600/400',
       icon: MapPin,
       color: 'from-green-500 to-emerald-500',
-      technologies: ['Python', 'Plotly Dash', 'Folium', 'GeoPandas', 'REST APIs', 'Pandas'],
+      technologies: ['Python', 'Plotly Dash', 'Folium', 'GeoPandas', 'REST APIs', 'Data Visualization'],
       features: [
         'Real-time earthquake data visualization',
         'Interactive geospatial filtering',
         'Responsive dashboard design',
-        'REST API integration'
+        'REST API integration for live data'
       ],
       category: 'Data Visualization',
-      github: '#',
+      github: 'https://github.com/Rithvik-d/global_earthquake_Analysis',
       demo: '#'
     },
     {
-      title: 'Access Control System for Internal Applications',
-      description: 'Developed a secure identity management system for 10+ internal tools using RBAC and password encryption. Enabled seamless user onboarding and access provisioning with minimal manual intervention.',
+      title: 'Tax Tracking System',
+      description: 'A comprehensive tax tracking and management system for personal or business tax management. Features tax calculation, tracking, reporting, and compliance management with user-friendly interface.',
       image: '/api/placeholder/600/400',
-      icon: Lock,
+      icon: Database,
       color: 'from-purple-500 to-violet-500',
-      technologies: ['Java', 'Spring Boot', 'MySQL', 'React', 'Docker', 'RBAC', 'OAuth2.0'],
+      technologies: ['Full Stack', 'Database', 'Tax Management', 'Financial Software'],
       features: [
-        'Role-based access control (RBAC)',
-        'Password encryption and security',
-        'Multi-application integration',
-        'Automated user provisioning'
+        'Tax calculation and tracking',
+        'Compliance management',
+        'Financial reporting',
+        'User-friendly interface'
       ],
-      category: 'Security',
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'E-commerce Website Development',
-      description: 'Built a full-stack clothing e-commerce site using Java/Spring Boot and React, with front-to-back integration. Integrated features such as product listing, shopping cart, and order processing.',
-      image: '/api/placeholder/600/400',
-      icon: ShoppingCart,
-      color: 'from-orange-500 to-amber-500',
-      technologies: ['Java', 'Spring Boot', 'React', 'MySQL', 'REST APIs', 'JavaScript'],
-      features: [
-        'Full-stack e-commerce platform',
-        'Product catalog and search',
-        'Shopping cart functionality',
-        'Order processing system'
-      ],
-      category: 'E-commerce',
-      github: '#',
+      category: 'Financial Software',
+      github: 'https://github.com/Rithvik-d/TAX-TRACKING-FINAL---PROJECT-',
       demo: '#'
     }
   ]
@@ -287,18 +254,24 @@ const Projects = () => {
                   <div className="flex gap-3">
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200 text-sm font-medium"
                     >
                       <Github className="h-4 w-4" />
-                      Code
+                      View Code
                     </a>
-                    <a
-                      href={project.demo}
-                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-200 text-sm font-medium"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      Demo
-                    </a>
+                    {project.demo !== '#' && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-200 text-sm font-medium"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.div>

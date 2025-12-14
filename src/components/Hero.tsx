@@ -95,7 +95,7 @@ const Hero = () => {
                 >
                   Hi, I'm{' '}
                   <span className="text-primary-600 dark:text-primary-400">
-                    Dhanpal
+                    Rithvik
                   </span>
                 </motion.h1>
                 
